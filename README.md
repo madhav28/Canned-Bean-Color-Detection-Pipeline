@@ -1,7 +1,7 @@
 # Canned-Bean-Color-Detection-Pipeline
 
 ## Requirements
-### Download the pretrained SAM models into the [`models`](./models/) directory
+### 1. Download the pretrained SAM models into the [`models`](./models/) directory
 **For Windows Users:**
 - [sam_vit_b_01ec64.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
 - [sam_vit_l_0b3195.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
@@ -14,16 +14,16 @@ wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 ```
 
-### Set Up the Environment
-**Create Virtual Environment**
+### 2. Set up the environment
+**Create virtual environment**
 ```bash
 python -m venv venv
 ```
-**Activate Virtual Environment**
+**Activate virtual environment**
 ```bash
 source venv/bin/activate
 ```
-**Install Dependencies**
+**Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
