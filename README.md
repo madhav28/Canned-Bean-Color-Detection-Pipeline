@@ -28,17 +28,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Instructions to Run the Pipeline
-**Step 1: Upload Images and Color Checker**
-* Delete the existing ./input/images folder (if it exists), then create a new one.
-* Upload all your input images into the newly created ./input/images directory.
-* Upload the color checker image to the ./input folder and name it exactly as color_checker.
+## Run Code
+**1. Upload images and color checker**
+* Upload all input images to the [`input/images`](./input/images) directory.
+* Upload the color checker image to the [`input`](./input) folder and name it exactly color_checker.
 
-**Important Guidelines for the Color Checker**
+**Important guidelines for the color checker**
 * The image must be in horizontal orientation (i.e., width > height).
 * Ensure the edges of the color checker are clearly visible and aligned.
 * A sample color checker image is shown below for reference.
-![Sample Color Checker](assets/color_checker.JPG)
+<img src="assets/color_checker.JPG" alt="Color Checker" width="250">
 
 **Step 2: Make Appropriate Changes to Job Script**
 * Open the run_pipeline.sh file.
