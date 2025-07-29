@@ -19,6 +19,7 @@ pip install -r requirements.txt
 * Delete the existing ./input/images folder (if it exists), then create a new one.
 * Upload all your input images into the newly created ./input/images directory.
 * Upload the color checker image to the ./input folder and name it exactly as color_checker.
+
 **Important Guidelines for the Color Checker**
 * The image must be in horizontal orientation (i.e., width > height).
 * Ensure the edges of the color checker are clearly visible and aligned.
