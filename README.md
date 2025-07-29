@@ -37,7 +37,7 @@ pip install -r requirements.txt
 * The image must be in horizontal orientation (i.e., width > height).
 * Ensure the edges of the color checker are clearly visible and aligned.
 * A sample color checker image is shown below for reference.
-<img src="assets/color_checker.JPG" alt="Color Checker" width="500">
+<img src="assets/color_checker.JPG" alt="Color Checker" width="375">
 
 **Step 2: Make Appropriate Changes to Job Script**
 * Open the run_pipeline.sh file.
