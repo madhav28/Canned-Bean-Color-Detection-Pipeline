@@ -28,7 +28,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Run Code
+## Inference
 **1. Upload images and color checker**
 * Upload all input images to the [`input/images`](./input/images) directory.
 * Upload the color checker image to the [`input`](./input) folder and name it exactly color_checker.
@@ -39,11 +39,21 @@ pip install -r requirements.txt
 * A sample color checker image is shown below for reference.
 <img src="assets/color_checker.JPG" alt="Color Checker" width="375">
 
-**Step 2: Make Appropriate Changes to Job Script**
-* Open the run_pipeline.sh file.
+**2. Run code**
+```python
+python inference.py
+```
+<h3 align="center">OR</h3>
+
+**2. Run code**
+* Open the [`inference_job_script.sh`](inference_job_script.sh) file.
 * Update the paths in the file accordingly.
 * Replace the email address with your own (using your NetID) in the #SBATCH --mail-user field.
 * The pipeline might take approximately 30 minutes to process 1000 images, so update the #SBATCH --time value accordingly to ensure the job runs long enough.
+
+```bash
+sbatch inference_job_script.sh
+```
 
 ## Results
 Once the pipeline completes successfully, the results will be available in the output folder:
