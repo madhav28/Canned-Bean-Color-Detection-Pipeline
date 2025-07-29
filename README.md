@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## Inference
 **1. Upload images and color checker**
 * Upload all input images to the [`input/images`](./input/images) directory.
-* Upload the color checker image to the [`input`](./input) folder and name it exactly color_checker.
+* Upload the color checker image to the [`input`](./input) folder and name it exactly **color_checker**.
 
 **Important guidelines for the color checker**
 * The image must be in horizontal orientation (i.e., width > height).
@@ -56,13 +56,13 @@ sbatch inference_job_script.sh
 ```
 
 ## Results
-Once the pipeline completes successfully, the results will be available in the output folder:
-- detection/: Contains images with detected beans. Detected beans is highlighted with a red bounding box.
-- segmentation/: Contains images with segmented beans, highlighted in green to indicate the segmentation mask.
-- patches/: Contains the 24 extracted patches used to calibrate the L, A, and B values.
-- results.csv: Contains D scores for all the images, along with L, A, B values before and after color calibration.
+Once the pipeline completes successfully, the results will be available in the [`output`](output) folder:
+- [`output/detection/`](./output/detection/): Contains images with detected beans. Detected beans is highlighted with a red bounding box.
+- [`output/segmentation/`](./output/segmentation/): Contains images with segmented beans, highlighted in green to indicate the segmentation mask.
+- [`output/patches/`](./output/patches/): Contains the 24 extracted patches used to calibrate the L, A, and B values.
+- [`output/results.csv`](./output/results.csv): Contains D scores for all the images, along with L, A, B values before and after color calibration.
 
 **Debugging Tips:**
-* Check the error.err file in the job_logs directory for the reason behind the job failure.
-* Check the output.out file in the job_logs directory to identify the step where the issue occurred.
+* Check the [`job_logs/error.err`](./job_logs/error.err) file in the job_logs directory for the reason behind the job failure.
+* Check the [`job_logs/output.out`](./job_logs/output.out) file in the job_logs directory to identify the step where the issue occurred.
 * Review the detection, segmentation, and patches outputs to determine the root cause of the issue.
