@@ -1,6 +1,7 @@
 # Canned-Bean-Color-Detection-Pipeline
 
-## Download Pretrained SAM Models
+## Requirements
+### Download Pretrained SAM Models
 Download the pretrained SAM models into the [`models`](./models/) directory.
 
 **For Windows Users:**
