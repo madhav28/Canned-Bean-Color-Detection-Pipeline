@@ -62,7 +62,7 @@ Once the pipeline completes successfully, the results will be available in the [
 - [`output/patches/`](./output/patches/): Contains the 24 extracted patches used to calibrate the L, A, and B values.
 - [`output/results.csv`](./output/results.csv): Contains D scores for all the images, along with L, A, B values before and after color calibration.
 
-**Debugging Tips:**
+## Debugging Tips
 * Check the [`job_logs/error.err`](./job_logs/error.err) file in the job_logs directory for the reason behind the job failure.
 * Check the [`job_logs/output.out`](./job_logs/output.out) file in the job_logs directory to identify the step where the issue occurred.
 * Review the detection, segmentation, and patches outputs to determine the root cause of the issue.
