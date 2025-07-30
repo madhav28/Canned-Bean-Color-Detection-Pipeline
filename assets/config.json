@@ -5,5 +5,61 @@
     "B": 0,
     "D Score Min": 12.75,
     "D Score Max": 22.5
+  },
+  "LRK": {
+    "L": 35,
+    "A": 22,
+    "B": 19,
+    "D Score Min": 13,
+    "D Score Max": 17
+  },
+  "Cran": {
+    "L": 52,
+    "A": 11,
+    "B": 26,
+    "D Score Min": 18,
+    "D Score Max": 25
+  },
+  "GN": {
+    "L": 69,
+    "A": -1,
+    "B": 11,
+    "D Score Min": 8,
+    "D Score Max": 14
+  },
+  "WK": {
+    "L": 100,
+    "A": 0,
+    "B": 0,
+    "D Score Min": 39,
+    "D Score Max": 45
+  },
+  "Navy": {
+    "L": 70,
+    "A": 0,
+    "B": 3,
+    "D Score Min": 15,
+    "D Score Max": 19
+  },
+  "Pinto": {
+    "L": 58,
+    "A": 6,
+    "B": 10,
+    "D Score Min": 15,
+    "D Score Max": 25
+  },
+  "Yellow": {
+    "L": 66,
+    "A": 2,
+    "B": 36,
+    "D Score Min": 16,
+    "D Score Max": 25
+  },
+  "DRK": {
+    "L": 40,
+    "A": 20,
+    "B": 8,
+    "D Score Min": 15,
+    "D Score Max": 25
   }
 }
